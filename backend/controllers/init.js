@@ -5,7 +5,7 @@ const axios = require('axios');
 const { readGlobalConfig } = require('./authController');
 
 // CORRECTED: Added /api to the end of the URL to match your server routes
-const API_URL = 'https://apna-git-2sie.onrender.com/api';
+const API_URL = 'https://apna-git.onrender.com/api';
 
 async function initRepo() {
   const name = path.basename(process.cwd());
