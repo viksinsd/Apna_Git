@@ -1,7 +1,7 @@
 const io = require("socket.io-client");
 
 // The public URL of your deployed server on Render
-const SERVER_URL = "https://apna-git-2sie.onrender.com";
+const SERVER_URL = "https://apna-git.onrender.com";
 
 console.log(`Connecting to server at ${SERVER_URL}...`);
 
