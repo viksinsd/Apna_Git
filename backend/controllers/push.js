@@ -4,7 +4,7 @@ const { s3, S3_BUCKET } = require("../config/aws-config");
 const io = require("socket.io-client");
 const { readGlobalConfig } = require('./authController');
 
-const SERVER_URL = "https://apna-git-2sie.onrender.com";
+const SERVER_URL = "https://apna-git.onrender.com";
 
 async function pushRepo() {
   //  Check if the user is logged in.
