@@ -1,6 +1,6 @@
 const fs = require("fs").promises;
 const path = require("path");
-const { s3, S3_BUCKET } = require(path.join(process.argv[1], '..', 'aws-config.js'));
+const { s3, S3_BUCKET } = require("../config/aws-config");
 const io = require("socket.io-client");
 const { readGlobalConfig } = require('./authController');
 
