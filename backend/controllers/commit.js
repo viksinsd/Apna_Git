@@ -4,7 +4,7 @@ const { v4: uuidv4 } = require("uuid");
 const io = require("socket.io-client");
 const { readGlobalConfig } = require('./authController');
 
-const SERVER_URL = "https://apna-git-2sie.onrender.com";
+const SERVER_URL = "https://apna-git.onrender.com";
 
 async function commitRepo(message) {
   //  Check if the user is logged in.
