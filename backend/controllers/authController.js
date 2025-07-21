@@ -5,7 +5,7 @@ const os = require('os');
 const readline = require('readline/promises');
 
 // The URL of your deployed server, now with the correct /api path
-const API_URL = 'https://apna-git-2sie.onrender.com/api';
+const API_URL = 'https://apna-git.onrender.com/api';
 const CONFIG_PATH = path.join(os.homedir(), '.apna-git-config.json');
 
 // Helper to read/write the global config file
